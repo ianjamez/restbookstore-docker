@@ -47,6 +47,7 @@
           <skip>false</skip>
           <!--<dockerHost>${bwdocker.host}</dockerHost>
           <certPath>${bwdocker.certPath}</certPath>-->
+          <allContainers>true</allContainers>
           <images>
             <image>
               <alias>${bwdocker.containername}</alias>
@@ -62,7 +63,7 @@
                   <tag>latest</tag>
                 </tags>
                 <ports>
-                  <port>8080</port>
+                  <port>8888:8888</port>
                 </ports>
               </build>
               <run>
