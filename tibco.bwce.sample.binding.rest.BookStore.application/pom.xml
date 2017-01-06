@@ -63,7 +63,7 @@
                   <tag>latest</tag>
                 </tags>
                 <ports>
-                  <port>8888\:8888</port>
+                  <port>${bwdocker.port.p0}</port>
                 </ports>
               </build>
               <run>
