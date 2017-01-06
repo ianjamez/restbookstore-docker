@@ -55,6 +55,7 @@
               <build>
                 <from>${bwdocker.from}</from>
                 <maintainer>${bwdocker.maintainer}</maintainer>
+                <namingStrategy>alias</namingStrategy> 
                 <assembly>
                   <basedir>/</basedir>
                   <descriptorRef>artifact</descriptorRef>
